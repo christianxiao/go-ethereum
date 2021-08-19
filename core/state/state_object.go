@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/christianxiao/go-ethereum/common"
+	"github.com/christianxiao/go-ethereum/crypto"
+	"github.com/christianxiao/go-ethereum/metrics"
+	"github.com/christianxiao/go-ethereum/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/christianxiao/go-ethereum/common"
+	"github.com/christianxiao/go-ethereum/core/types"
+	"github.com/christianxiao/go-ethereum/crypto"
+	"github.com/christianxiao/go-ethereum/ethdb"
+	"github.com/christianxiao/go-ethereum/log"
+	"github.com/christianxiao/go-ethereum/params"
+	"github.com/christianxiao/go-ethereum/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

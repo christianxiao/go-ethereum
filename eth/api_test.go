@@ -24,11 +24,11 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/christianxiao/go-ethereum/common"
+	"github.com/christianxiao/go-ethereum/core/rawdb"
+	"github.com/christianxiao/go-ethereum/core/state"
+	"github.com/christianxiao/go-ethereum/crypto"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

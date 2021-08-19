@@ -30,13 +30,13 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/christianxiao/go-ethereum/common"
+	"github.com/christianxiao/go-ethereum/crypto"
+	"github.com/christianxiao/go-ethereum/ethdb"
+	"github.com/christianxiao/go-ethereum/ethdb/leveldb"
+	"github.com/christianxiao/go-ethereum/ethdb/memorydb"
+	"github.com/christianxiao/go-ethereum/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

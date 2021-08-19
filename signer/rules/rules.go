@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/christianxiao/go-ethereum/internal/ethapi"
+	"github.com/christianxiao/go-ethereum/log"
+	"github.com/christianxiao/go-ethereum/signer/core"
+	"github.com/christianxiao/go-ethereum/signer/rules/deps"
+	"github.com/christianxiao/go-ethereum/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 var (
