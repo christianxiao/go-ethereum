@@ -563,7 +563,7 @@ SECP256K1_API SECP256K1_WARN_UNUSED_RESULT int secp256k1_context_randomize2(
  *  In:     ins:        pointer to array of pointers to public keys (cannot be NULL)
  *          n:          the number of public keys to add together (must be at least 1)
  */
-SECP256K1_API SECP256K1_WARN_UNUSED_RESULT int secp256k1_ec_pubkey_combine(
+SECP256K1_API SECP256K1_WARN_UNUSED_RESULT int secp256k1_ec_pubkey_combine2(
     const secp256k1_context* ctx,
     secp256k1_pubkey *out,
     const secp256k1_pubkey * const * ins,

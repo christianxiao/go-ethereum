@@ -522,7 +522,7 @@ int secp256k1_context_randomize2(secp256k1_context* ctx, const unsigned char *se
     return 1;
 }
 
-int secp256k1_ec_pubkey_combine(const secp256k1_context* ctx, secp256k1_pubkey *pubnonce, const secp256k1_pubkey * const *pubnonces, size_t n) {
+int secp256k1_ec_pubkey_combine2(const secp256k1_context* ctx, secp256k1_pubkey *pubnonce, const secp256k1_pubkey * const *pubnonces, size_t n) {
     size_t i;
     secp256k1_gej Qj;
     secp256k1_ge Q;
